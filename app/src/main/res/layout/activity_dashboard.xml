@@ -7,10 +7,61 @@
     android:orientation="vertical"
     tools:context=".DashboardActivity">
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/ViewPager"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"/>
+   <ViewFlipper
+       android:id="@+id/v_flipper"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_gravity="center"
+       />
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="120dp"
+       android:layout_margin="20dp">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+         <SearchView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="right" />
+
+
+         <TextView
+             android:id="@+id/tvPostAd"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Post FREE Ad"
+             />
+
+         <TextView
+             android:id="@+id/tvMobileHandset"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Post FREE Ad"/>
+
+         <TextView
+             android:id="@+id/tvLaptops"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Post FREE Ad"/>
+
+      </LinearLayout>
+   </androidx.cardview.widget.CardView>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:text="Popular Trending Ads"/>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+
 
 
 

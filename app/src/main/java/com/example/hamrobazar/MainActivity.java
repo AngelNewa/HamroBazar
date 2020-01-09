@@ -17,6 +17,7 @@ import android.widget.Toolbar;
 import com.example.hamrobazar.adapters.CategoryAdapter;
 import com.example.hamrobazar.adapters.ImageSliderAdapter;
 import com.example.hamrobazar.adapters.ProductAdapter;
+import com.example.hamrobazar.model.Category;
 import com.example.hamrobazar.model.Products;
 
 import java.util.ArrayList;

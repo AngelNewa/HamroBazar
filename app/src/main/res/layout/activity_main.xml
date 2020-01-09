@@ -96,7 +96,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.20"
-                        android:backgroundTint=""
+                        android:backgroundTint="@color/colorBlue"
                         android:hint="Find what your are looking for?"
                         android:selectAllOnFocus="true"
                         android:textSize="18sp"
